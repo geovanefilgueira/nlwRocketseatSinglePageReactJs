@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{padding: 0px; margin: 0px; }
+/*========global styles pages=========*/
+/*fonts texts*/
+.title-model-sub{font-size: 1.3em; color:#fff; font-family: 'Nunito', sans-serif;}
+.title-model-smile{font-size: 1em; color:#fff; font-family: 'Nunito', sans-serif;}
+.title-model-big{font-size: 3em; color:#fff; font-family: 'Nunito', sans-serif;}
+/*containers size*/
+.w90{width: 90%;}
+.w70{width: 70%;}
+.w25{width: 25%;}
+
+.h100{height: 100vh;}
+.h90{height: 90vh;}
+/*colors */
+.bk-linear01{background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);}
+.bk12{background: chartreuse;}
+/*flex boxes*/
+.lay-row{display: flex; flex-direction: row;}
+.lay-column{display: flex; flex-direction: column;}
+
+.lay-center{justify-content: center;}
+.lay-space-b{justify-content: space-between;}
+.lay-space-a{justify-content: space-around;}
+
+.lay-align-cent{align-items: center;}
+.lay-align-start{align-items: flex-start;}
+.lay-align-end{align-items: flex-end;}
+/*========containers pages custons*/
+#home-page-index{width: 100%; height: 100vh; }
+

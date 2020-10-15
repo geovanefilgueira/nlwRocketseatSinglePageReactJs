@@ -1,12 +1,10 @@
 import React from 'react';
-import Home from './components/home'
-import PageMaps from './components/pageMaps'
+import RotesPages from './routes'
+
 function App() {
   return (
     <div className="App">
-      <Home/>
-
-      <PageMaps/>
+     <RotesPages/>
      
     </div>
   );
