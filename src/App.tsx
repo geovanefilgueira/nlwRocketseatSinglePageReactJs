@@ -1,10 +1,13 @@
 import React from 'react';
-
-
+import Home from './components/home'
+import PageMaps from './components/pageMaps'
 function App() {
   return (
     <div className="App">
-      <h1>ola</h1>
+      <Home/>
+
+      <PageMaps/>
+     
     </div>
   );
 }
